@@ -194,4 +194,19 @@ Install my-project with poetry
 ```bash
    poetry install
 ```
+
    
+<!-- Run Locally -->
+### :running: Run Locally
+
+Clone the project
+
+```bash
+  git clone https://github.com/akirawuc/chirpy.git
+```
+
+Go to the project directory
+
+```bash
+  cd Chirpy
+```
