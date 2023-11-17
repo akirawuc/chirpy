@@ -233,3 +233,19 @@ Start the server
 🚀 **Quest Explorer:** Dive into quests for an extra layer of engagement and community building.
 
 
+<!-- Contributing -->
+## :wave: Contributing
+
+<a href="https://github.com/Louis3797/awesome-readme-template/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Louis3797/awesome-readme-template" />
+</a>
+
+
+| Member  | Role | Linkedin | GitHub   |
+| ----------- | ----------- |----------- |----------- |
+| Yassine Landa  |   Developer          | https://www.linkedin.com/in/yassine-landa-403355176/   | y10a                |
+| Min-Sheng (Akira) Wu | Developer | https://www.linkedin.com/in/akirauc/               | akirawuc              |
+| Natalie Leung  |  Designer                   | https://www.linkedin.com/in/natalie-leung-901b82276/   | chaoticsoooul       |
+| Qiao Liang  |  Developer                   | https://www.linkedin.com/in/qlcode/   | qbig       |
+| Nada Jabr      |  Product Manager          | https://www.linkedin.com/in/sanskar-tyagi-953a921b1/   | NJ-2021             |
+
