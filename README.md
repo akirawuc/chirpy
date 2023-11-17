@@ -141,4 +141,27 @@ The potential impact of **Chirpy** is substantial. By simplifying community comm
     <li><a href="https://pypi.org/project/psycopg2/">psycopg2</a></li>
     <li><a href="https://platform.openai.com/docs/guides/gpt/gpt-models">openai</a></li>
 
+    
+  </ul>
+</details>
+
+<details>
+<summary>Database</summary>
+  <ul>
+    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
+  </ul>
+</details>
+
+
+
+
+
+<!-- Color Reference -->
+### :art: Color Reference
+
+| Color             | Hex                                                                |
+| ----------------- | ------------------------------------------------------------------ |
+| Primary Color | ![#edc250](https://via.placeholder.com/10/222831?text=+) #edc250 |
+| Secondary Color | ![#ca212b](https://via.placeholder.com/10/393E46?text=+) #ca212b |
+| Accent Color | ![#33b46b](https://via.placeholder.com/10/00ADB5?text=+) #33b46b |
 
