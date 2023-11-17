@@ -5,7 +5,7 @@
   <h1>Chirpy</h1>
 
   <div align="center"> 
-  <img width="255" alt="Screenshot 2023-11-10 at 01 58 33" src="https://github.com/akirawuc/skitties/assets/88503953/774d5035-45f1-42d1-a29c-f6f051cfac12">
+  <img width="255" alt="Screenshot 2023-11-10 at 01 58 33" src="https://github.com/akirawuc/Chirpy/assets/88503953/774d5035-45f1-42d1-a29c-f6f051cfac12">
     
 </div>
 
@@ -40,7 +40,7 @@
 
   <!-- About the Project -->
 ## :star2: About the Project
-Unveil the delightful world of Skitties, your AI companion designed to keep you in the loop about the latest community happenings. Say goodbye to information overload and the fear of missing out on events – Skitties has got your back!
+Unveil the delightful world of Chirpy, your AI companion designed to keep you in the loop about the latest community happenings. Say goodbye to information overload and the fear of missing out on events – Chirpy has got your back!
 
 <!-- The Challenge -->
 
@@ -49,11 +49,11 @@ Unveil the delightful world of Skitties, your AI companion designed to keep you 
 In the fast-paced world of crypto and community-building, staying on top of events and conversations can be overwhelming. FOMO (Fear of Missing Out) haunts every crypto user's journey.
 
 <!-- Solution -->
- ## ✨ Skitties's Magical Solution :
+ ## ✨ Chirpy's Magical Solution :
 
   **Community Building Simplified:** Connect with like-minded individuals, foster new friendships, and build thriving communities effortlessly.
 
-  **Efficient Time Management:** No more endless scrolling! **Skitties** curates content, ensuring you get the essence without investing hours.
+  **Efficient Time Management:** No more endless scrolling! **Chirpy** curates content, ensuring you get the essence without investing hours.
 
 
 <!-- Modes -->
@@ -75,8 +75,8 @@ In the fast-paced world of crypto and community-building, staying on top of even
 ## :dart: Features : 
 
 📰 Feed Wizardry: Get personalized community feeds delivered straight to your Telegram. Your content, your way, effortlessly.
-🗞️ Summarize the Noise: Busy day? Skitties distills event details into bite-sized summaries, saving you time without sacrificing the scoop
-💬 Natural Chatter: Interact seamlessly with Skitties. Generate replies, posts, likes, and shares as if you're talking to a friend.
+🗞️ Summarize the Noise: Busy day? Chirpy distills event details into bite-sized summaries, saving you time without sacrificing the scoop
+💬 Natural Chatter: Interact seamlessly with Chirpy. Generate replies, posts, likes, and shares as if you're talking to a friend.
 
 
 <!-- Modes -->
@@ -87,7 +87,58 @@ In the fast-paced world of crypto and community-building, staying on top of even
 🚀 Group Harmony: Elevate your group chats with BuzzPal's charm and utility.
 
 
+<!-- Feasibility -->
+
+ ## 🤓 Feasibility:
+
+**Chirpy** tackles the real-world issue of information overload and the fear of missing out on events in the crypto and social media space. With its features for efficient community management, streamlined event updates, and natural language interactions, the project is highly practical and addresses tangible user pain points. The integration with Telegram makes it accessible to a broad audience.
+
+<!-- Impact -->
+
+## 📑 Impact:
+
+The potential impact of **Chirpy** is substantial. By simplifying community communication, aiding in event awareness, and facilitating natural interactions, it empowers crypto enthusiasts, community builders, and social media users. The impact extends to improved time management, enhanced community engagement, and streamlined social media presence.
+
+<!-- **Innovation/Technical Complexity** -->
+
+## 👩‍💻 Innovation/Technical Complexity:
+
+**Chirpy** showcases innovation in its approach to handling information overload. The natural language processing for generating replies and posts, along with the ability to summarize content, demonstrates technical sophistication. While it builds on existing technologies like Telegram, its features introduce novel concepts, making it an innovative solution in the crypto community management space.
 
 
+
+<!-- Screenshots -->
+
+## :camera: Screenshots: 
+
+<div align="center"> 
+<img width="858" alt="image" src="https://github.com/akirawuc/Chirpy/assets/88503953/f447b7c8-ebf3-4fc4-b79d-505780c63264">
+<img width="1038" alt="image" src="https://github.com/akirawuc/Chirpy/assets/88503953/4631e309-107f-4645-9997-1fe9bf0262df">
+<img width="1062" alt="Screenshot 2023-11-11 at 08 17 54" src="https://github.com/akirawuc/Chirpy/assets/88503953/c858dcba-4e28-48a6-923e-3ebb041ea583">
+
+
+
+    
+</div>
+
+
+<!-- TechStack -->
+### :space_invader: Tech Stack
+
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="https://python-telegram-bot.org/">python-telegram-bot</a></li>
+    
+  </ul>
+</details>
+
+<details>
+  <summary>Server</summary>
+  <ul>
+    <li><a href="https://github.com/a16z/farcaster-py">farcaster-py</a></li>
+    <li><a href="https://pypi.org/project/eth-account/">eth-account</a></li>
+    <li><a href="https://pypi.org/project/psycopg2/">psycopg2</a></li>
+    <li><a href="https://platform.openai.com/docs/guides/gpt/gpt-models">openai</a></li>
 
 
