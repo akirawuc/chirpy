@@ -165,3 +165,33 @@ The potential impact of **Chirpy** is substantial. By simplifying community comm
 | Secondary Color | ![#ca212b](https://via.placeholder.com/10/393E46?text=+) #ca212b |
 | Accent Color | ![#33b46b](https://via.placeholder.com/10/00ADB5?text=+) #33b46b |
 
+
+<!-- Env Variables -->
+### :key: Environment Variables
+
+To run this project, you will need to add the following environment variables to your .env file
+
+`API_KEY`
+
+`ANOTHER_API_KEY`
+
+<!-- Getting Started -->
+## 	:toolbox: Getting Started
+
+<!-- Prerequisites -->
+### :bangbang: Prerequisites
+
+This project uses poetry as package manager
+
+You can follow this link to set-up https://python-poetry.org/docs/#installing-with-the-official-installer
+
+
+<!-- Installation -->
+### :gear: Installation
+
+Install my-project with poetry
+
+```bash
+   poetry install
+```
+   
