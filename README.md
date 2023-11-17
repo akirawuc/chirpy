@@ -222,3 +222,14 @@ Start the server
 ```bash
   poetry run python3 fc_auth.py
 ```
+
+<!-- Roadmap -->
+## :compass: Roadmap and future features
+
+**🌈 Sentiment Maestro:** Skitties adapts its responses to your mood, ensuring a personalized and human-like touch.
+
+🚨 **Social Alerts:** Stay informed about your social media activity with instant Telegram notifications.
+
+🚀 **Quest Explorer:** Dive into quests for an extra layer of engagement and community building.
+
+
