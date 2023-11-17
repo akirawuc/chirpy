@@ -210,3 +210,15 @@ Go to the project directory
 ```bash
   cd Chirpy
 ```
+
+Install dependencies
+
+```bash
+  poetry install
+```
+
+Start the server
+
+```bash
+  poetry run python3 fc_auth.py
+```
