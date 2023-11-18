@@ -72,9 +72,9 @@ In the fast-paced world of crypto and community-building, staying on top of even
 <!-- Features -->
 ## :dart: Features : 
 
-📰 Feed Wizardry: Get personalized community feeds delivered straight to your Telegram. Your content, your way, effortlessly.
-🗞️ Summarize the Noise: Busy day? Chirpy distills event details into bite-sized summaries, saving you time without sacrificing the scoop
-💬 Natural Chatter: Interact seamlessly with Chirpy. Generate replies, posts, likes, and shares as if you're talking to a friend.
+📰 Get personalized community feeds delivered straight to your Telegram. Your content, your way, effortlessly.
+🗞️ Chirpy distills event details into bite-sized summaries, saving you time without sacrificing the scoop
+💬 Interact seamlessly with Chirpy. Generate replies, posts, likes, and shares as if you're talking to a friend.
 
 
 <!-- Modes -->
