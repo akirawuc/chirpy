@@ -141,10 +141,8 @@ The potential impact of **Chirpy** is substantial. By simplifying community comm
 <details>
   <summary>Server</summary>
   <ul>
-    <li><a href="https://github.com/a16z/farcaster-py">farcaster-py</a></li>
-    <li><a href="https://pypi.org/project/eth-account/">eth-account</a></li>
-    <li><a href="https://pypi.org/project/psycopg2/">psycopg2</a></li>
-    <li><a href="https://platform.openai.com/docs/guides/gpt/gpt-models">openai</a></li>
+    <li><a href="https://docs.python-telegram-bot.org/en/v20.6/index.html">python3-telegram-bot</a></li>
+
 
     
   </ul>
@@ -153,7 +151,10 @@ The potential impact of **Chirpy** is substantial. By simplifying community comm
 <details>
 <summary>Database</summary>
   <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
+    <li><a href="https://ethglobal.com/events/istanbul/prizes/scroll">scroll</a></li>
+    <li><a href="https://ethglobal.com/events/istanbul/prizes/polygon">polygon</a></li>
+    <li><a href="https://ethglobal.com/events/istanbul/prizes/arbitrum">arbitrum</a></li>
+    <li><a href="https://ethglobal.com/events/istanbul/prizes/gnosis-chain">gnosis-chain</a></li>
   </ul>
 </details>
 
