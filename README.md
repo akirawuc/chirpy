@@ -5,12 +5,14 @@
   <h1>Chirpy</h1>
 
   <div align="center"> 
-  <img width="255" alt="Screenshot 2023-11-10 at 01 58 33" src="https://github.com/akirawuc/Chirpy/assets/88503953/774d5035-45f1-42d1-a29c-f6f051cfac12">
+
+  <img width="255" alt="Screenshot 2023-11-10 at 01 58 33" src="https://github.com/akirawuc/chirpy/assets/88503953/c8823056-18d2-430d-9e1b-b566b58af80e">
+
     
 </div>
 
   <p>
-     <h1>Chirpy: Your one-stop crypto connection! Dive into the crypto buzz—post and engage seamlessly using just the Chirpy-lens-bot</h1>
+     <h1>Your crypto hub! Post and engage effortlessly with the Chirpy bot</h1>
   </p>
   
   
