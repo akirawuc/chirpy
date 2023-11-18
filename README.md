@@ -158,63 +158,6 @@ Improve time management and enhance community engagement.
 </details>
 
 
-<!-- Env Variables -->
-### :key: Environment Variables
-
-To run this project, you will need to add the following environment variables to your .env file
-
-`API_KEY`
-
-`ANOTHER_API_KEY`
-
-<!-- Getting Started -->
-## 	:toolbox: Getting Started
-
-<!-- Prerequisites -->
-### :bangbang: Prerequisites
-
-This project uses poetry as package manager
-
-You can follow this link to set-up https://python-poetry.org/docs/#installing-with-the-official-installer
-
-
-<!-- Installation -->
-### :gear: Installation
-
-Install my-project with poetry
-
-```bash
-   poetry install
-```
-
-   
-<!-- Run Locally -->
-### :running: Run Locally
-
-Clone the project
-
-```bash
-  git clone https://github.com/akirawuc/chirpy.git
-```
-
-Go to the project directory
-
-```bash
-  cd Chirpy
-```
-
-Install dependencies
-
-```bash
-  poetry install
-```
-
-Start the server
-
-```bash
-  poetry run python3 fc_auth.py
-```
-
 
 
 <!-- Contributing -->
