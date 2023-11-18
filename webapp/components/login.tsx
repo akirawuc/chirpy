@@ -1,4 +1,5 @@
 //@ts-nocheck
+import { TelegramProvider, useTelegram } from "../components/webapp";
 import { LensClient, development } from '@lens-protocol/client';
 import {useAccount} from 'wagmi';
 import Script from 'next/script'
@@ -9,6 +10,7 @@ import React, { useEffect, useState } from 'react';
 
 const LensAuthentication = () => {
   const { address } = useAccount();
+  const { user, webApp } = useTelegram();
   const [client, setClient] = useState(null);
   const [change, setChange] = useState(false);
   const [challenge, setChallenge] = useState(null);
@@ -73,6 +75,7 @@ return (
             const signature = await signMessageAsync({ message: challenge.text });
             const {profileId, accessToken} = handleSignedMessage(signature);
             console.log(profileId, accessToken);
+            webApp.sendData({profileId, accessToken});
         }}>
         Sign Challenge
       </button>

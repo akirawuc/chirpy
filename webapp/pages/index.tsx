@@ -24,6 +24,7 @@ const Home: NextPage = () => {
 
       <main className={styles.main}>
         <ConnectButton />
+          <LensAuthentication />
 
       {user ? (
         <div>
