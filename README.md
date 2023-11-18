@@ -64,7 +64,7 @@ In the fast-paced world of crypto and community-building, staying on top of even
 
 **- Community Builders:** 
 
-**Chirpy**'s lens bot revolutionizes smart posting on Telegram. By simplifying content curation and interaction, community builders can easily share relevant information, organize events, and foster community engagement. Chirpy enables them to manage and grow their communities seamlessly, creating a more vibrant and connected space for like-minded individuals within the crypto community.
+**Chirpy**'s lens bot empowers community builders to effortlessly organize events, share relevant information, and foster community engagement, creating vibrant and connected spaces for crypto enthusiasts.
 
 **- Web3 users:** 
 
@@ -74,9 +74,9 @@ In the fast-paced world of crypto and community-building, staying on top of even
 <!-- Features -->
 ## :dart: Features : 
 
-📰 Get personalized community feeds delivered straight to your Telegram. Your content, your way, effortlessly.
-🗞️ Chirpy distills event details into bite-sized summaries, saving you time without sacrificing the scoop
-💬 Interact seamlessly with Chirpy. Generate replies, posts, likes, and shares as if you're talking to a friend.
+📰 Get personalized community feeds delivered straight to your Telegram.
+🗞️ Chirpy distills event details, saving you time without sacrificing the scoop
+💬 Generate replies, posts, likes, and shares as if you're talking to a friend.
 
 
 <!-- Modes -->
@@ -91,19 +91,20 @@ In the fast-paced world of crypto and community-building, staying on top of even
 
  ## 🤓 Feasibility:
 
-**Chirpy** tackles the real-world issue of information overload and the fear of missing out on events in the crypto and social media space. With its features for efficient community management, streamlined event updates, and natural language interactions, the project is highly practical and addresses tangible user pain points. The integration with Telegram makes it accessible to a broad audience.
+**Chirpy** solves crypto FOMO and info overload by streamlining community management and event updates. Integrated with Telegram for broad accessibility.
 
 <!-- Impact -->
 
 ## 📑 Impact:
 
-The potential impact of **Chirpy** is substantial. By simplifying community communication, aiding in event awareness, and facilitating natural interactions, it empowers crypto enthusiasts, community builders, and social media users. The impact extends to improved time management, enhanced community engagement, and streamlined social media presence.
+Improve time management and enhanced community engagement.
+
 
 <!-- **Innovation/Technical Complexity** -->
 
 ## 👩‍💻 Innovation/Technical Complexity:
 
-**Chirpy** showcases innovation in its approach to handling information overload. The natural language processing for generating replies and posts, along with the ability to summarize content, demonstrates technical sophistication. While it builds on existing technologies like Telegram, its features introduce novel concepts, making it an innovative solution in the crypto community management space.
+**Chirpy** innovates crypto community management with advanced natural language processing, summarization, and replies. Building on Telegram, it introduces novel concepts, demonstrating technical sophistication in handling information overload.
 
 
 
