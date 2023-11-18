@@ -26,18 +26,6 @@ const Home: NextPage = () => {
         <ConnectButton />
           <LensAuthentication />
 
-      {user ? (
-        <div>
-          <h1>Welcome {user?.username}</h1>
-          User data:
-          <pre>{JSON.stringify(user, null, 2)}</pre>
-          Eniter Web App data:
-          <pre>{JSON.stringify(webApp, null, 2)}</pre>
-          <LensAuthentication />
-        </div>
-      ) : (
-        <div>Make sure web app is opened from telegram client</div>
-      )}
       </main>
 
       <footer className={styles.footer}>
