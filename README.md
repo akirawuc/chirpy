@@ -160,19 +160,6 @@ Improve time management and enhanced community engagement.
 </details>
 
 
-
-
-
-<!-- Color Reference -->
-### :art: Color Reference
-
-| Color             | Hex                                                                |
-| ----------------- | ------------------------------------------------------------------ |
-| Primary Color | ![#edc250](https://via.placeholder.com/10/222831?text=+) #edc250 |
-| Secondary Color | ![#ca212b](https://via.placeholder.com/10/393E46?text=+) #ca212b |
-| Accent Color | ![#33b46b](https://via.placeholder.com/10/00ADB5?text=+) #33b46b |
-
-
 <!-- Env Variables -->
 ### :key: Environment Variables
 
@@ -230,22 +217,11 @@ Start the server
   poetry run python3 fc_auth.py
 ```
 
-<!-- Roadmap -->
-## :compass: Roadmap and future features
-
-**🌈 Sentiment Maestro:** Skitties adapts its responses to your mood, ensuring a personalized and human-like touch.
-
-🚨 **Social Alerts:** Stay informed about your social media activity with instant Telegram notifications.
-
-🚀 **Quest Explorer:** Dive into quests for an extra layer of engagement and community building.
 
 
 <!-- Contributing -->
 ## :wave: Contributing
 
-<a href="https://github.com/Louis3797/awesome-readme-template/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=Louis3797/awesome-readme-template" />
-</a>
 
 
 | Member  | Role | Linkedin | GitHub   |
