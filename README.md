@@ -10,7 +10,7 @@
 </div>
 
   <p>
-     <h1>Your talkative sidekick, chirping up the latest buzz and community happenings!</h1>
+     <h1>Chirpy: Your one-stop crypto connection! Dive into the crypto buzz—post and engage seamlessly using just the Chirpy-lens-bot</h1>
   </p>
   
   
@@ -40,7 +40,7 @@
 
   <!-- About the Project -->
 ## :star2: About the Project
-Unveil the delightful world of Chirpy, your AI companion designed to keep you in the loop about the latest community happenings. Say goodbye to information overload and the fear of missing out on events – Chirpy has got your back!
+Discover Chirpy, your AI buddy that keeps you updated on the latest community events. Forget about info overload and FOMO – Chirpy has you covered!
 
 <!-- The Challenge -->
 
@@ -51,9 +51,9 @@ In the fast-paced world of crypto and community-building, staying on top of even
 <!-- Solution -->
  ## ✨ Chirpy's Magical Solution :
 
-  **Community Building Simplified:** Connect with like-minded individuals, foster new friendships, and build thriving communities effortlessly.
+**Streamlined Community Building:** Easily connect with like-minded individuals, cultivate new friendships, and effortlessly construct thriving communities.
 
-  **Efficient Time Management:** No more endless scrolling! **Chirpy** curates content, ensuring you get the essence without investing hours.
+**Time-Saving Efficiency:** Say goodbye to endless scrolling! With Chirpy, content curation ensures you grasp the essence without spending hours, making smart posting on Telegram a new, efficient solution.
 
 
 <!-- Modes -->
@@ -128,7 +128,12 @@ The potential impact of **Chirpy** is substantial. By simplifying community comm
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="https://python-telegram-bot.org/">python-telegram-bot</a></li>
+    <li><a href="https://github.com/lens-protocol/lens-sdk">lens-sdk</a></li>
+    <li><a href="https://tailwindcss.com/">tailwind</a></li>
+    <li><a href="https://worldcoin.org/world-id">world-id</a></li>
+    <li><a href="https://next.id/">next.id</a></li>
+    
+    
     
   </ul>
 </details>
