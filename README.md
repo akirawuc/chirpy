@@ -82,9 +82,9 @@ In the fast-paced world of crypto and community-building, staying on top of even
 <!-- Modes -->
 ## Modes :
 
-👥 Private Chat: Tailor your BuzzPal experience with personalized conversations.
+- Private Chat: Personalized conversations.
 
-🚀 Group Harmony: Elevate your group chats with BuzzPal's charm and utility.
+- Group Harmony: Elevate your group chats with Chirpy's features.
 
 
 <!-- Feasibility -->
