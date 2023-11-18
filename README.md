@@ -66,7 +66,7 @@ In the fast-paced world of crypto and community-building, staying on top of even
 
 **- Web3 users:** 
 
-**Chirpy ** on Telegram makes posting easy for crypto fans. They can quickly share updates and engage without juggling multiple platforms. Smart posting with **Chirpy** helps them stay active online, keeping up with the fast-paced web3.
+**Chirpy** on Telegram makes posting easy for crypto fans. They can quickly share updates and engage without juggling multiple platforms. Smart posting with **Chirpy** helps them stay active online, keeping up with the fast-paced web3.
 
 
 <!-- Features -->
