@@ -1,7 +1,7 @@
 //@ts-nocheck
 import { LensClient, development } from '@lens-protocol/client';
 import {useAccount} from 'wagmi';
-
+import Script from 'next/script'
 import { useSignMessage } from 'wagmi'
 import { recoverMessageAddress } from 'viem'
 import React, { useEffect, useState } from 'react';
@@ -10,11 +10,12 @@ import React, { useEffect, useState } from 'react';
 const LensAuthentication = () => {
   const { address } = useAccount();
   const [client, setClient] = useState(null);
+  const [change, setChange] = useState(false);
   const [challenge, setChallenge] = useState(null);
   const [isAuthenticated, setIsAuthenticated] = useState(false);
   const [profileId, setProfileId] = useState(null);
   const [accessToken, setAccessToken] = useState(null);
-    const { data: signMessageData, signMessage, isLoading, error } = useSignMessage();
+    const { data: signMessageData, signMessageAsync, isLoading, error } = useSignMessage();
 
   useEffect(() => {
     if (address) {
@@ -68,9 +69,10 @@ const LensAuthentication = () => {
 return (
   <div>
     {challenge && (
-        <button onClick={() => {
-            const signature = signMessage({ message: challenge.text });
-            // console.log(profileId, accessToken);
+        <button onClick={async () => {
+            const signature = await signMessageAsync({ message: challenge.text });
+            const {profileId, accessToken} = handleSignedMessage(signature);
+            console.log(profileId, accessToken);
         }}>
         Sign Challenge
       </button>
