@@ -3,11 +3,14 @@ import type { NextPage } from 'next';
 import LensAuthentication from '../components/login';
 import {useAccount} from 'wagmi';
 import Head from 'next/head';
+import { TelegramProvider, useTelegram } from "../components/webapp";
 import styles from '../styles/Home.module.css';
 import { LensClient, development } from "@lens-protocol/client";
 
 
 const Home: NextPage = () => {
+  const { user, webApp } = useTelegram();
+  console.log(user);
   return (
     <div className={styles.container}>
       <Head>
@@ -21,7 +24,19 @@ const Home: NextPage = () => {
 
       <main className={styles.main}>
         <ConnectButton />
-        <LensAuthentication />
+
+      {user ? (
+        <div>
+          <h1>Welcome {user?.username}</h1>
+          User data:
+          <pre>{JSON.stringify(user, null, 2)}</pre>
+          Eniter Web App data:
+          <pre>{JSON.stringify(webApp, null, 2)}</pre>
+          <LensAuthentication />
+        </div>
+      ) : (
+        <div>Make sure web app is opened from telegram client</div>
+      )}
       </main>
 
       <footer className={styles.footer}>
@@ -30,6 +45,14 @@ const Home: NextPage = () => {
         </a>
       </footer>
     </div>
+  );
+};
+
+const WithTelegramProvider = () => {
+  return (
+    <TelegramProvider>
+      <WebApp />
+    </TelegramProvider>
   );
 };
 
