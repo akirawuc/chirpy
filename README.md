@@ -60,15 +60,13 @@ In the fast-paced world of crypto and community-building, staying on top of even
 ## 👥 Target Audience :
 
 
-**- Community Builders:** Those engaged in building and nurturing communities, seeking a tool to simplify communication and engagement.
+**- Community Builders:** 
 
-**- Event Attendees:** People interested in staying informed about upcoming events without being overwhelmed by information.
+**Chirpy**'s lens bot revolutionizes smart posting on Telegram. By simplifying content curation and interaction, community builders can easily share relevant information, organize events, and foster community engagement. Chirpy enables them to manage and grow their communities seamlessly, creating a more vibrant and connected space for like-minded individuals within the crypto community.
 
-**- Social Media Managers:** Individuals handling social media for projects, who want a streamlined way to manage content and interactions.
+**- Web3 users:** 
 
-**- Busy Professionals:** Professionals who want to stay connected but struggle with time management and information overload.
-
-**- Social Media Users:** Individuals active on various platforms who want to manage their online presence more effectively.
+**Chirpy ** on Telegram makes posting easy for crypto fans. They can quickly share updates and engage without juggling multiple platforms. Smart posting with **Chirpy** helps them stay active online, keeping up with the fast-paced web3.
 
 
 <!-- Features -->
