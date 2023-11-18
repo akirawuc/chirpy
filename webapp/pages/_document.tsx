@@ -6,7 +6,6 @@ class MyDocument extends Document {
       <Html>
         <Head>
           {/* Other head elements */}
-          <script src="https://telegram.org/js/telegram-web-app.js" />
         </Head>
         <body>
           <Main />
