@@ -5,12 +5,14 @@
   <h1>Chirpy</h1>
 
   <div align="center"> 
-  <img width="255" alt="Screenshot 2023-11-10 at 01 58 33" src="https://github.com/akirawuc/Chirpy/assets/88503953/774d5035-45f1-42d1-a29c-f6f051cfac12">
+
+  <img width="255" alt="Screenshot 2023-11-10 at 01 58 33" src="https://github.com/akirawuc/chirpy/assets/88503953/c8823056-18d2-430d-9e1b-b566b58af80e">
+
     
 </div>
 
   <p>
-     <h1>Your talkative sidekick, chirping up the latest buzz and community happenings!</h1>
+     <h1>Your crypto hub! Post and engage effortlessly with the Chirpy bot</h1>
   </p>
   
   
@@ -27,20 +29,17 @@
   * [Screenshots](#camera-screenshots)
   * [Tech Stack](#space_invader-tech-stack)
   * [Features](#dart-features)
-  * [Color Reference](#art-color-reference)
-  * [Environment Variables](#key-environment-variables)
 - [Getting Started](#toolbox-getting-started)
   * [Prerequisites](#bangbang-prerequisites)
   * [Installation](#gear-installation)
   * [Run Locally](#running-run-locally)
-- [Roadmap](#compass-roadmap)
 - [Contributing](#wave-contributing)
  
 
 
   <!-- About the Project -->
 ## :star2: About the Project
-Unveil the delightful world of Chirpy, your AI companion designed to keep you in the loop about the latest community happenings. Say goodbye to information overload and the fear of missing out on events – Chirpy has got your back!
+Discover Chirpy, your AI buddy that keeps you updated on the latest community events. Forget about info overload and FOMO – Chirpy has you covered!
 
 <!-- The Challenge -->
 
@@ -49,61 +48,60 @@ Unveil the delightful world of Chirpy, your AI companion designed to keep you in
 In the fast-paced world of crypto and community-building, staying on top of events and conversations can be overwhelming. FOMO (Fear of Missing Out) haunts every crypto user's journey.
 
 <!-- Solution -->
- ## ✨ Chirpy's Magical Solution :
+ ## ✨ Solution :
 
-  **Community Building Simplified:** Connect with like-minded individuals, foster new friendships, and build thriving communities effortlessly.
+**Streamlined Community Building:** Easily connect with like-minded individuals, cultivate new friendships, and effortlessly construct thriving communities.
 
-  **Efficient Time Management:** No more endless scrolling! **Chirpy** curates content, ensuring you get the essence without investing hours.
+**Time-Saving Efficiency:** Say goodbye to endless scrolling! With Chirpy, content curation ensures you grasp the essence without spending hours, making smart posting on Telegram a new, efficient solution.
 
 
 <!-- Modes -->
 ## 👥 Target Audience :
 
 
-**- Community Builders:** Those engaged in building and nurturing communities, seeking a tool to simplify communication and engagement.
+**- Community Builders:** 
 
-**- Event Attendees:** People interested in staying informed about upcoming events without being overwhelmed by information.
+**Chirpy**'s lens bot empowers community builders to effortlessly organize events, share relevant information, and foster community engagement, creating vibrant and connected spaces for crypto enthusiasts.
 
-**- Social Media Managers:** Individuals handling social media for projects, who want a streamlined way to manage content and interactions.
+**- Web3 users:** 
 
-**- Busy Professionals:** Professionals who want to stay connected but struggle with time management and information overload.
-
-**- Social Media Users:** Individuals active on various platforms who want to manage their online presence more effectively.
+**Chirpy** on Telegram makes posting easy for crypto fans. They can quickly share updates and engage without juggling multiple platforms. Smart posting with **Chirpy** helps them stay active online, keeping up with the fast-paced web3.
 
 
 <!-- Features -->
 ## :dart: Features : 
 
-📰 Feed Wizardry: Get personalized community feeds delivered straight to your Telegram. Your content, your way, effortlessly.
-🗞️ Summarize the Noise: Busy day? Chirpy distills event details into bite-sized summaries, saving you time without sacrificing the scoop
-💬 Natural Chatter: Interact seamlessly with Chirpy. Generate replies, posts, likes, and shares as if you're talking to a friend.
+📰 Get personalized community feeds delivered straight to your Telegram.
+🗞️ Chirpy distills event details, saving you time without sacrificing the scoop
+💬 Generate replies, posts, likes, and shares as if you're talking to a friend.
 
 
 <!-- Modes -->
 ## Modes :
 
-👥 Private Chat: Tailor your BuzzPal experience with personalized conversations.
+- Private Chat: Personalized conversations.
 
-🚀 Group Harmony: Elevate your group chats with BuzzPal's charm and utility.
+- Group Harmony: Elevate your group chats with Chirpy's features.
 
 
 <!-- Feasibility -->
 
  ## 🤓 Feasibility:
 
-**Chirpy** tackles the real-world issue of information overload and the fear of missing out on events in the crypto and social media space. With its features for efficient community management, streamlined event updates, and natural language interactions, the project is highly practical and addresses tangible user pain points. The integration with Telegram makes it accessible to a broad audience.
+**Chirpy** solves crypto FOMO and info overload by streamlining community management and event updates. Integrated with Telegram for broad accessibility.
 
 <!-- Impact -->
 
 ## 📑 Impact:
 
-The potential impact of **Chirpy** is substantial. By simplifying community communication, aiding in event awareness, and facilitating natural interactions, it empowers crypto enthusiasts, community builders, and social media users. The impact extends to improved time management, enhanced community engagement, and streamlined social media presence.
+Improve time management and enhance community engagement.
+
 
 <!-- **Innovation/Technical Complexity** -->
 
 ## 👩‍💻 Innovation/Technical Complexity:
 
-**Chirpy** showcases innovation in its approach to handling information overload. The natural language processing for generating replies and posts, along with the ability to summarize content, demonstrates technical sophistication. While it builds on existing technologies like Telegram, its features introduce novel concepts, making it an innovative solution in the crypto community management space.
+**Chirpy** innovates crypto community management with advanced natural language processing, summarization, and replies. Building on Telegram, it introduces novel concepts, demonstrating technical sophistication in handling information overload.
 
 
 
@@ -128,7 +126,12 @@ The potential impact of **Chirpy** is substantial. By simplifying community comm
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="https://python-telegram-bot.org/">python-telegram-bot</a></li>
+    <li><a href="https://github.com/lens-protocol/lens-sdk">lens-sdk</a></li>
+    <li><a href="https://tailwindcss.com/">tailwind</a></li>
+    <li><a href="https://worldcoin.org/world-id">world-id</a></li>
+    <li><a href="https://next.id/">next.id</a></li>
+    
+    
     
   </ul>
 </details>
@@ -136,10 +139,8 @@ The potential impact of **Chirpy** is substantial. By simplifying community comm
 <details>
   <summary>Server</summary>
   <ul>
-    <li><a href="https://github.com/a16z/farcaster-py">farcaster-py</a></li>
-    <li><a href="https://pypi.org/project/eth-account/">eth-account</a></li>
-    <li><a href="https://pypi.org/project/psycopg2/">psycopg2</a></li>
-    <li><a href="https://platform.openai.com/docs/guides/gpt/gpt-models">openai</a></li>
+    <li><a href="https://docs.python-telegram-bot.org/en/v20.6/index.html">python3-telegram-bot</a></li>
+
 
     
   </ul>
@@ -148,104 +149,25 @@ The potential impact of **Chirpy** is substantial. By simplifying community comm
 <details>
 <summary>Database</summary>
   <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
+    <li><a href="https://ethglobal.com/events/istanbul/prizes/scroll">scroll</a></li>
+    <li><a href="https://ethglobal.com/events/istanbul/prizes/polygon">polygon</a></li>
+    <li><a href="https://ethglobal.com/events/istanbul/prizes/arbitrum">arbitrum</a></li>
+    <li><a href="https://ethglobal.com/events/istanbul/prizes/gnosis-chain">gnosis-chain</a></li>
   </ul>
 </details>
 
 
 
 
-
-<!-- Color Reference -->
-### :art: Color Reference
-
-| Color             | Hex                                                                |
-| ----------------- | ------------------------------------------------------------------ |
-| Primary Color | ![#edc250](https://via.placeholder.com/10/222831?text=+) #edc250 |
-| Secondary Color | ![#ca212b](https://via.placeholder.com/10/393E46?text=+) #ca212b |
-| Accent Color | ![#33b46b](https://via.placeholder.com/10/00ADB5?text=+) #33b46b |
-
-
-<!-- Env Variables -->
-### :key: Environment Variables
-
-To run this project, you will need to add the following environment variables to your .env file
-
-`API_KEY`
-
-`ANOTHER_API_KEY`
-
-<!-- Getting Started -->
-## 	:toolbox: Getting Started
-
-<!-- Prerequisites -->
-### :bangbang: Prerequisites
-
-This project uses poetry as package manager
-
-You can follow this link to set-up https://python-poetry.org/docs/#installing-with-the-official-installer
-
-
-<!-- Installation -->
-### :gear: Installation
-
-Install my-project with poetry
-
-```bash
-   poetry install
-```
-
-   
-<!-- Run Locally -->
-### :running: Run Locally
-
-Clone the project
-
-```bash
-  git clone https://github.com/akirawuc/chirpy.git
-```
-
-Go to the project directory
-
-```bash
-  cd Chirpy
-```
-
-Install dependencies
-
-```bash
-  poetry install
-```
-
-Start the server
-
-```bash
-  poetry run python3 fc_auth.py
-```
-
-<!-- Roadmap -->
-## :compass: Roadmap and future features
-
-**🌈 Sentiment Maestro:** Skitties adapts its responses to your mood, ensuring a personalized and human-like touch.
-
-🚨 **Social Alerts:** Stay informed about your social media activity with instant Telegram notifications.
-
-🚀 **Quest Explorer:** Dive into quests for an extra layer of engagement and community building.
-
-
 <!-- Contributing -->
 ## :wave: Contributing
 
-<a href="https://github.com/Louis3797/awesome-readme-template/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=Louis3797/awesome-readme-template" />
-</a>
 
 
 | Member  | Role | Linkedin | GitHub   |
 | ----------- | ----------- |----------- |----------- |
-| Yassine Landa  |   Developer          | https://www.linkedin.com/in/yassine-landa-403355176/   | y10a                |
 | Min-Sheng (Akira) Wu | Developer | https://www.linkedin.com/in/akirauc/               | akirawuc              |
 | Natalie Leung  |  Designer                   | https://www.linkedin.com/in/natalie-leung-901b82276/   | chaoticsoooul       |
-| Qiao Liang  |  Developer                   | https://www.linkedin.com/in/qlcode/   | qbig       |
+| Ye Fan  |  Developer                   | https://www.linkedin.com/in/ye-fan-566377a2/   | HandsomeJeff      |
 | Nada Jabr      |  Product Manager          | https://www.linkedin.com/in/sanskar-tyagi-953a921b1/   | NJ-2021             |
 
