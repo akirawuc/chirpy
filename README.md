@@ -224,7 +224,6 @@ Start the server
 
 | Member  | Role | Linkedin | GitHub   |
 | ----------- | ----------- |----------- |----------- |
-| Yassine Landa  |   Developer          | https://www.linkedin.com/in/yassine-landa-403355176/   | y10a                |
 | Min-Sheng (Akira) Wu | Developer | https://www.linkedin.com/in/akirauc/               | akirawuc              |
 | Natalie Leung  |  Designer                   | https://www.linkedin.com/in/natalie-leung-901b82276/   | chaoticsoooul       |
 | xxxxx  |  Developer                   | https://www.linkedin.com/in/qlcode/   | qbig       |
