@@ -72,7 +72,7 @@ In the fast-paced world of crypto and community-building, staying on top of even
 ## :dart: Features : 
 
 - Get personalized community feeds delivered straight to your Telegram.
-- Chirpy distills event details, saving you time without sacrificing the scoop
+- Chirpy distills event details, saving you time without sacrificing the scoop.
 - Generate replies, posts, likes, and shares as if you're talking to a friend.
 
 
@@ -88,7 +88,7 @@ In the fast-paced world of crypto and community-building, staying on top of even
 
  ## 🤓 Feasibility:
 
-**Chirpy** solves crypto FOMO and info overload by streamlining community management and event updates. Integrated with Telegram for broad accessibility.
+**Chirpy** solves crypto FOMO and info overload by streamlining community management and event updates.
 
 <!-- Impact -->
 
