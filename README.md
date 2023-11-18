@@ -71,13 +71,13 @@ In the fast-paced world of crypto and community-building, staying on top of even
 <!-- Features -->
 ## :dart: Features : 
 
-📰 Get personalized community feeds delivered straight to your Telegram.
-🗞️ Chirpy distills event details, saving you time without sacrificing the scoop
-💬 Generate replies, posts, likes, and shares as if you're talking to a friend.
+- Get personalized community feeds delivered straight to your Telegram.
+- Chirpy distills event details, saving you time without sacrificing the scoop
+- Generate replies, posts, likes, and shares as if you're talking to a friend.
 
 
 <!-- Modes -->
-## Modes :
+## ⏺️ Modes :
 
 - Private Chat: Personalized conversations.
 
