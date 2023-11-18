@@ -29,7 +29,7 @@ const { chains, publicClient, webSocketPublicClient } = configureChains(
 
 const { connectors } = getDefaultWallets({
   appName: 'RainbowKit App',
-  projectId: 'YOUR_PROJECT_ID',
+  projectId: '60e230271fda6a1825eb37772827a949',
   chains,
 });
 
@@ -44,6 +44,7 @@ function MyApp({ Component, pageProps }: AppProps) {
   return (
     <WagmiConfig config={wagmiConfig}>
       <RainbowKitProvider chains={chains}>
+        <Script src="https://telegram.org/js/telegram-web-app.js" />
         <Component {...pageProps} />
       </RainbowKitProvider>
     </WagmiConfig>
