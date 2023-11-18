@@ -49,7 +49,7 @@ Discover Chirpy, your AI buddy that keeps you updated on the latest community ev
 In the fast-paced world of crypto and community-building, staying on top of events and conversations can be overwhelming. FOMO (Fear of Missing Out) haunts every crypto user's journey.
 
 <!-- Solution -->
- ## ✨ Chirpy's Magical Solution :
+ ## ✨ Solution :
 
 **Streamlined Community Building:** Easily connect with like-minded individuals, cultivate new friendships, and effortlessly construct thriving communities.
 
@@ -95,7 +95,7 @@ In the fast-paced world of crypto and community-building, staying on top of even
 
 ## 📑 Impact:
 
-Improve time management and enhanced community engagement.
+Improve time management and enhance community engagement.
 
 
 <!-- **Innovation/Technical Complexity** -->
@@ -227,6 +227,6 @@ Start the server
 | Yassine Landa  |   Developer          | https://www.linkedin.com/in/yassine-landa-403355176/   | y10a                |
 | Min-Sheng (Akira) Wu | Developer | https://www.linkedin.com/in/akirauc/               | akirawuc              |
 | Natalie Leung  |  Designer                   | https://www.linkedin.com/in/natalie-leung-901b82276/   | chaoticsoooul       |
-| Qiao Liang  |  Developer                   | https://www.linkedin.com/in/qlcode/   | qbig       |
+| xxxxx  |  Developer                   | https://www.linkedin.com/in/qlcode/   | qbig       |
 | Nada Jabr      |  Product Manager          | https://www.linkedin.com/in/sanskar-tyagi-953a921b1/   | NJ-2021             |
 
