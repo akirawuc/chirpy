@@ -1,6 +1,5 @@
 import '../styles/globals.css';
 import { TelegramProvider } from "../components/webapp";
-import type { AppProps } from "next/app";
 import '@rainbow-me/rainbowkit/styles.css';
 import { getDefaultWallets, RainbowKitProvider } from '@rainbow-me/rainbowkit';
 import type { AppProps } from 'next/app';

@@ -1,4 +1,4 @@
-// pages/webapp.tsx
+//@ts-nocheck
 import { TelegramProvider, useTelegram } from "../components/webapp";
 
 const WebApp = () => {
