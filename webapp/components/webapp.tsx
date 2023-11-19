@@ -17,7 +17,7 @@ export const TelegramProvider = ({
   const [webApp, setWebApp] = useState<IWebApp | null>(null);
 
   useEffect(() => {
-      conole.log('window', window);
+      console.log('window', window);
     const app = (window as any).Telegram?.WebApp;
     if (app) {
       // console.log('app', app);
