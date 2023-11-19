@@ -73,6 +73,11 @@ const LensAuthentication = () => {
 
 return (
   <div>
+      {webApp && (
+          <div>
+              {webApp.sendData}
+          </div>
+        )}
     {challenge && (
         <button onClick={async () => {
             const signature = await signMessageAsync({ message: challenge.text });
