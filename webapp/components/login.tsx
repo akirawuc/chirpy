@@ -71,6 +71,9 @@ const LensAuthentication = () => {
       webApp.sendData( accessToken);
       return {profileId, accessToken};
   };
+    webApp.MainButton.setText('authorize').show().onClick(function () {
+        webApp.sendData(accessToken);
+    });
 
 return (
   <div>
