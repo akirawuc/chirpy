@@ -19,6 +19,7 @@ const LensAuthentication = () => {
   const [accessToken, setAccessToken] = useState(null);
     const { data: signMessageData, signMessageAsync, isLoading, error } = useSignMessage();
   webApp.ready();
+    console.log(webApp, user);
 
 
   useEffect(() => {
