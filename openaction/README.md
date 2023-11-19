@@ -130,7 +130,7 @@ The `frontend/src/layout` components `Create`, `Act`, and `Events` contain code 
 ## Deployed contract
 Deployed Contracts
 
-Polygon Testnet
+### Polygon Testnet
 Better.sol
 0x8b491CB4bfb07F9EE6320365115ce92d0338e785
 https://mumbai.polygonscan.com/address/0x8b491cb4bfb07f9ee6320365115ce92d0338e785#code
@@ -140,21 +140,22 @@ BetterOpenAction.sol
 https://mumbai.polygonscan.com/address/0x5ab1533488105a00e5011d615581f138482336fd#code
 
 
-Arbitrum Testnet
+### Arbitrum Testnet
 Better.sol
 0x7E188422CCe3B0f387BEbAa2c1233FEd1DBAC7e3
 https://goerli.arbiscan.io/address/0x7e188422cce3b0f387bebaa2c1233fed1dbac7e3#code
 
-Scroll Testnet
+### Scroll Testnet
 Better.sol
 0x0c17afb3E67B690B9E1036cEF545BB1BcAaAd491
 
 
-Celo
+### Celo
 Better.sol
 0x0c17afb3E67B690B9E1036cEF545BB1BcAaAd491
 
 
-Mantle Testnet
+### Mantle Testnet
 Better.sol
 0x11558D272E6c6034470310e6956d45A8F26e5D16
+https://explorer.testnet.mantle.xyz/address/0x0c17afb3E67B690B9E1036cEF545BB1BcAaAd491/contracts?contract-tab=code#address-tabs

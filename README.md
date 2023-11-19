@@ -167,6 +167,6 @@ Improve time management and enhance community engagement.
 | ----------- | ----------- |----------- |----------- |
 | Min-Sheng (Akira) Wu | Developer | https://www.linkedin.com/in/akirauc/               | akirawuc              |
 | Natalie Leung  |  Designer                   | https://www.linkedin.com/in/natalie-leung-901b82276/   | chaoticsoooul       |
-| Ye Fan  |  Developer                   | https://www.linkedin.com/in/ye-fan-566377a2/   | HandsomeJeff      |
+| Steve  |  Developer                   | https://www.linkedin.com/in/ye-fan-566377a2/   | HandsomeJeff      |
 | Nada Jabr      |  Product Manager          | https://www.linkedin.com/in/sanskar-tyagi-953a921b1/   | NJ-2021             |
 
