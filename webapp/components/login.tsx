@@ -17,8 +17,7 @@ const LensAuthentication = () => {
   const [isAuthenticated, setIsAuthenticated] = useState(false);
   const [profileId, setProfileId] = useState(null);
   const [accessToken, setAccessToken] = useState(null);
-    const { data: signMessageData, signMessageAsync, isLoading, error } = useSignMessage();
-  webApp.ready();
+  const { data: signMessageData, signMessageAsync, isLoading, error } = useSignMessage();
     console.log(webApp, user);
 
 
@@ -78,7 +77,8 @@ return (
             const signature = await signMessageAsync({ message: challenge.text });
             const {profileId, accessToken} = handleSignedMessage(signature);
             console.log(profileId, accessToken);
-             webApp.sendData({profileId, accessToken});
+             
+  webApp.sendData({profileId, accessToken});
         }}>
         Sign Challenge
       </button>

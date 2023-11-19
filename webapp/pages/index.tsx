@@ -37,12 +37,4 @@ const Home: NextPage = () => {
   );
 };
 
-const WithTelegramProvider = () => {
-  return (
-    <TelegramProvider>
-      <Home />
-    </TelegramProvider>
-  );
-};
-
 export default Home;
