@@ -44,11 +44,11 @@ const wagmiConfig = createConfig({
 function MyApp({ Component, pageProps }: AppProps) {
   return (
     <TelegramProvider>
-    <WagmiConfig config={wagmiConfig}>
-      <RainbowKitProvider chains={chains}>
-        <Component {...pageProps} />
-      </RainbowKitProvider>
-    </WagmiConfig>
+      <WagmiConfig config={wagmiConfig}>
+        <RainbowKitProvider chains={chains}>
+          <Component {...pageProps} />
+        </RainbowKitProvider>
+      </WagmiConfig>
     </TelegramProvider>
   );
 }

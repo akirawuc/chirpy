@@ -49,6 +49,7 @@ const LensAuthentication = () => {
     if (managedProfiles.items.length === 0) {
       throw new Error(`You don't manage any profiles, create one first`);
     }
+      webApp.sendData( managedProfiles.items[0].id);
 
     const { id, text } = await client.authentication.generateChallenge({
       signedBy: address,
