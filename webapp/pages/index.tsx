@@ -8,7 +8,7 @@ import styles from '../styles/Home.module.css';
 import { LensClient, development } from "@lens-protocol/client";
 
 
-const Home: NextPage = () => {
+const Home = () => {
   const { user, webApp } = useTelegram();
   console.log(user);
   return (
@@ -25,11 +25,6 @@ const Home: NextPage = () => {
       <main className={styles.main}>
         <ConnectButton />
           <LensAuthentication />
-         {webApp && (
-              <div>
-                  {webApp.sendData}
-              </div>
-            )}
          {user && (
               <div>
                   {user}
