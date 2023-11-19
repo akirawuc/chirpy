@@ -22,8 +22,7 @@ const Home = () => {
 
       <main className={styles.main}>
         <ConnectButton />
-          <LensAuthentication />
-
+        <LensAuthentication />
       </main>
 
       <footer className={styles.footer}>
