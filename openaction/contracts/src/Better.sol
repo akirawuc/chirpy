@@ -92,6 +92,11 @@ contract Better is IBetter {
         } else {
             judges[betID][executor] = true;
         }
+        if (params.participants.length > 0) {
+            for (uint i=0; i<params.participants.length; i++) {
+            participants[betID][params.participants[i]] = true;
+        }
+        }
         betAdmin[betID][executor] = true;
     }
 
