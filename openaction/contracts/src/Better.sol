@@ -57,7 +57,7 @@ contract Better is IBetter {
         betID = 0;
     }
 
-    function filterData(bytes calldata data, address actor) external {
+    function filterData(bytes calldata data, address actor) external returns (uint) {
         BetDataParams memory method = abi.decode(data, (BetDataParams));
         if (method.functionName == 1) {
             return newBet(method.params, actor);
@@ -73,12 +73,7 @@ contract Better is IBetter {
         }
     }
 
-    
-    function helloWorld(string memory message, address actor) external {
-        emit Greet(string(abi.encodePacked("Hello, World! ", message)), actor);
-    }
-
-    function newBet(bytes memory data, address executor) public {
+    function newBet(bytes memory data, address executor) public returns (uint) {
         NewBetParams memory params = abi.decode(data, (NewBetParams));
         require(params.numChoices >= 2);
         betID++;
@@ -102,10 +97,11 @@ contract Better is IBetter {
             }   
         }
         betAdmin[betID][executor] = true;
+        return betID;
     }
 
     // lets user join the bet
-    function joinBet(bytes memory data) public {
+    function joinBet(bytes memory data) public returns (uint) {
         JoinBetParams memory params = abi.decode(data, (JoinBetParams));
         require(activeBet[params.betID]);   // requires active bet
         // adds any joiner's monetary bets
@@ -115,19 +111,22 @@ contract Better is IBetter {
         // sets joiner's choice
         chosen[params.betID][params.joiner] = params.choice;
         participants[params.betID][params.joiner] = true;
+        return params.betID;
     }
 
-    function setJudge(bytes memory data, address executor) public {
+    function setJudge(bytes memory data, address executor) public returns (uint) {
         AddJudgeParams memory params = abi.decode(data, (AddJudgeParams));
         require(betAdmin[params.betID][executor]);
         judges[params.betID][params.judge] = true;
+        return params.betID;
     }
 
-    function resolveBet(bytes memory data, address executor) public {
+    function resolveBet(bytes memory data, address executor) public returns (uint) {
         ResolveBetParams memory params = abi.decode(data, (ResolveBetParams));
         require(judges[params.betID][executor]);
         correctChoice[params.betID] = params.choice;
         activeBet[params.betID] = false;
         closedBet[params.betID] = true;
+        return params.betID;
     }
 }

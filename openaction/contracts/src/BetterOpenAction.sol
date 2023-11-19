@@ -38,7 +38,7 @@ contract BetterOpenAction is HubRestricted, IPublicationActionModule {
         // _better.helloWorld(string(combinedMessage), params.transactionExecutor);
 
         // sends data to logic layer
-        _better.filterData(params.actionModuleData, params.transactionExecutor);
-        
+        uint betID = _better.filterData(params.actionModuleData, params.transactionExecutor);
+        return abi.encode(betID);
     }
 }
