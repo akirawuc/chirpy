@@ -29,6 +29,7 @@ contract Better is IBetter {
         uint numChoices;
         string[] choiceString;
         address[] participants;
+        uint[] participantChoices;
         address judge;
     }
 
@@ -93,9 +94,12 @@ contract Better is IBetter {
             judges[betID][executor] = true;
         }
         if (params.participants.length > 0) {
-            for (uint i=0; i<params.participants.length; i++) {
-            participants[betID][params.participants[i]] = true;
-        }
+            if (params.participantChoices.length == params.participants.length) {
+                for (uint i=0; i<params.participants.length; i++) {
+                    participants[betID][params.participants[i]] = true;
+                    chosen[betID][params.participants[i]] = params.participantChoices[i];
+                }
+            }   
         }
         betAdmin[betID][executor] = true;
     }
