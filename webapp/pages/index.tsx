@@ -25,6 +25,16 @@ const Home: NextPage = () => {
       <main className={styles.main}>
         <ConnectButton />
           <LensAuthentication />
+         {webApp && (
+              <div>
+                  {webApp.sendData}
+              </div>
+            )}
+         {user && (
+              <div>
+                  {user}
+              </div>
+            )}
 
       </main>
 
