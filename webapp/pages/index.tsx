@@ -1,4 +1,5 @@
 import { ConnectButton } from '@rainbow-me/rainbowkit';
+import VerifyWorldId from "../../components/worldcoinVerify";
 import type { NextPage } from 'next';
 import LensAuthentication from '../components/login';
 import {useAccount} from 'wagmi';
@@ -6,9 +7,13 @@ import Head from 'next/head';
 import { TelegramProvider, useTelegram } from "../components/webapp";
 import styles from '../styles/Home.module.css';
 import { LensClient, development } from "@lens-protocol/client";
+const action = "mint-collab-nft";
+const app_id = "app_staging_7d739ad0b13ae36395a73a4c9e8fa198";
+
 
 
 const Home = () => {
+  const [verified, setVerified] = useState(false);
   return (
     <div className={styles.container}>
       <Head>

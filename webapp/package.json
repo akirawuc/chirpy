@@ -11,6 +11,8 @@
   "dependencies": {
     "@lens-protocol/client": "^2.0.0-alpha.21",
     "@rainbow-me/rainbowkit": "^1.2.0",
+    "@vkruglikov/react-telegram-web-app": "^2.1.5",
+    "@worldcoin/idkit": "^0.5.1",
     "next": "^13.4.19",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
