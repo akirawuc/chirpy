@@ -27,7 +27,7 @@ export const TelegramProvider = ({
   }, []);
 
   const value = useMemo(() => {
-    retrn webApp
+    return webApp
       ? {
           webApp,
           unsafeData: webApp.initDataUnsafe,
