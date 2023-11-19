@@ -1,5 +1,5 @@
 import { ConnectButton } from "@rainbow-me/rainbowkit";
-import LogoIcon from "@/components/icons/LogoIcon";
+import LogoIcon from "./ui/icons";
 import { useMemo, useState, Dispatch, SetStateAction } from "react";
 import Link from "next/link";
 import type { NextPage } from "next";
@@ -53,7 +53,7 @@ function VerifyWorldId({ verified, setVerified }: VerifyWorldIdIdProps) {
       <div className="flex flex-col items-center border rounded-3xl bg-black text-white">
         <IDKitWidget
           app_id="app_staging_7d739ad0b13ae36395a73a4c9e8fa198" // obtained from the Developer Portal
-          action="mint-collab-nft" // this is your action name from the Developer Portal
+          action="connect to Chirpy" // this is your action name from the Developer Portal
           onSuccess={onSuccess} // callback when the modal is closed
         >
           {({ open }) => (

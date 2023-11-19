@@ -1,12 +1,11 @@
 //@ts-nocheck
-import { TelegramProvider, useTelegram } from "../components/webapp";
+import { TelegramProvider, useTelegram } from "../components/telegramWebapp";
 import { LensClient, development } from '@lens-protocol/client';
 import {useAccount} from 'wagmi';
 import Script from 'next/script'
 import { useSignMessage } from 'wagmi'
 import { recoverMessageAddress } from 'viem'
 import React, { useEffect, useState } from 'react';
-
 
 const LensAuthentication = () => {
   const { address } = useAccount();
@@ -19,14 +18,6 @@ const LensAuthentication = () => {
   const [accessToken, setAccessToken] = useState(null);
   const { data: signMessageData, signMessageAsync, isLoading, error } = useSignMessage();
   console.log(webApp, user);
-  console.log(webApp, user);
-  console.log(webApp, user);
-  console.log(webApp, user);
-  console.log(webApp, user);
-    // webApp.MainButton.setText('authorize').show().onClick(function () {
-    //     // webApp.sendData(accessToken);
-    // });
-
 
   useEffect(() => {
     if (address) {
@@ -108,4 +99,3 @@ return (
 };
 
 export default LensAuthentication;
-
