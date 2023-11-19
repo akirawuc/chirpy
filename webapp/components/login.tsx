@@ -19,7 +19,13 @@ const LensAuthentication = () => {
   const [accessToken, setAccessToken] = useState(null);
   const { data: signMessageData, signMessageAsync, isLoading, error } = useSignMessage();
   console.log(webApp, user);
-  webApp.sendData('yoooo');
+  console.log(webApp, user);
+  console.log(webApp, user);
+  console.log(webApp, user);
+  console.log(webApp, user);
+    // webApp.MainButton.setText('authorize').show().onClick(function () {
+    //     // webApp.sendData(accessToken);
+    // });
 
 
   useEffect(() => {
@@ -68,18 +74,15 @@ const LensAuthentication = () => {
       setAccessToken(accessToken);
     }
       console.log(isAuthenticated);
-      webApp.sendData( accessToken);
+      // webApp.sendData( accessToken);
       return {profileId, accessToken};
   };
-    webApp.MainButton.setText('authorize').show().onClick(function () {
-        webApp.sendData(accessToken);
-    });
 
 return (
   <div>
      {webApp && (
           <div>
-              {webApp.sendData}
+              {webApp}
           </div>
         )}
     {challenge && (
@@ -87,7 +90,7 @@ return (
             const signature = await signMessageAsync({ message: challenge.text });
             const {profileId, accessToken} = handleSignedMessage(signature);
             console.log(profileId, accessToken);
-            webApp.sendData(accessToken);
+            // webApp.sendData(accessToken);
         }}>
         Sign Challenge
       </button>

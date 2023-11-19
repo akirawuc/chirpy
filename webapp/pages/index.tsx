@@ -9,8 +9,6 @@ import { LensClient, development } from "@lens-protocol/client";
 
 
 const Home = () => {
-  const { user, webApp } = useTelegram();
-  console.log(user);
   return (
     <div className={styles.container}>
       <Head>
@@ -25,11 +23,6 @@ const Home = () => {
       <main className={styles.main}>
         <ConnectButton />
           <LensAuthentication />
-         {user && (
-              <div>
-                  {user}
-              </div>
-            )}
 
       </main>
 
