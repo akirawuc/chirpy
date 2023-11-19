@@ -35,4 +35,12 @@ const Home = () => {
   );
 };
 
-export default Home;
+const WithTelegramProvider = () => {
+  return (
+    <TelegramProvider>
+      <Home />
+    </TelegramProvider>
+  );
+};
+
+export default WithTelegramProvider;
